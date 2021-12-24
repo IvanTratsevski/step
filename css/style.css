@@ -1,0 +1,37 @@
+/* @import url(css/reset.css); */
+/* *,*:after,*:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+} */
+/* html{
+    background-color: rgba(255, 120, 67, 0.274);
+}
+main{
+    background-color: rgba(88, 241, 246, 0.418);
+}*/
+.logo{
+    width: 35%;
+}
+.logoimg{
+    width: inherit;
+    border: 2px outset darkslateblue;
+    border-radius: 100%;
+    transition: 0.5s;
+    outline: 5px dashed yellow;
+}
+.logoimg:hover{
+    margin-left: 100%;
+    width: 80%;
+    border: 2px outset darkslateblue;
+    border-radius: 1.5%;
+    filter: drop-shadow(16px 16px 20px blue);
+    transition-duration: 4s;
+}
+.nav_top .nav_items ul li,
+.nav_top .nav_items,
+.nav_top .nav_items ol li,
+.nav_top .logo{
+    display: inline-block;
+}
